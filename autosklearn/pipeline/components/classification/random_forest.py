@@ -19,6 +19,7 @@ from autosklearn.pipeline.implementations.util import (
 )
 from autosklearn.util.common import check_for_bool, check_none
 
+#Random Forest model is implemented
 
 class RandomForest(
     IterativeComponentWithSampleWeight,
